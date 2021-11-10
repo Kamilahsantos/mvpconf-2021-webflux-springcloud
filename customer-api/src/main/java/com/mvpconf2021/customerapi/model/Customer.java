@@ -12,7 +12,7 @@ import javax.validation.constraints.NotBlank;
 @NoArgsConstructor
 @Builder
 @With
-@Document(collection = "ladies")
+@Document(collection = "customer")
 public class Customer {
 
     @Id
